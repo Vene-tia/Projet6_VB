@@ -5,3 +5,251 @@ Author:       Venetia
 Template:     sydney
 Version:      1.0.0
 */
+
+/* menu */
+.roll-button:hover {
+	background-color: #C02E44 !important;
+	border-color: #C02E44 !important;
+	color: white;
+	font-weight: 500!important
+}
+
+a:hover {
+	font-weight: 700!important;
+}
+
+/* titre et Edit */
+.hentry .title-post {
+    display: none;
+}
+
+.hentry .post-edit-link {
+    display: none;
+}
+
+.post-edit-link {
+	display: none;
+}
+
+/* fond page cmd */
+
+body.page-id-24 {
+	background-color: #3B8E46;
+}
+
+
+/* Formulaire contact */
+#wpforms-submit-63 ,
+#wpforms-submit-729 , #wpforms-submit-733 {
+	background-color:#DC9F96;
+	display: flex;
+  align-items: center;
+}
+
+#wpforms-submit-63:hover  {
+	background-color:#C02E44;
+	border: none;
+	color: white;
+}
+
+#wpforms-63-field_4 , #wpforms-63-field_1 , #wpforms-63-field_2 {
+	border: none;
+	margin: 0;
+	border-radius: 7px;
+}
+
+#wpforms-submit-63 {
+	margin-left: 125px;
+}
+
+/* formulaire commander */
+
+.form_commander {
+	display: flex;
+  justify-content: space-between;
+	color: white;
+}
+
+.A {
+	border-right: 0px solid white;
+}
+
+.B {
+	margin-left: 170px;
+}
+
+@media (max-width: 767px) {
+.form_commander {
+	display: flex;
+	flex-direction: column;
+	} }
+
+@media (max-width: 767px) {
+.B {
+	margin-left: 0;
+	} }
+
+@media (max-width: 767px) {
+.wpcf7-submit {
+	margin-left: 0 !important;
+	} }
+
+
+.wpcf7-form-control {
+	height: 71px !important;
+	width: 483px !important;
+	border-radius: 7px !important;
+}
+
+.wpcf7-submit {
+	width: 228px !important;
+	height: 60px !important;
+	margin-left: 455px;
+	margin-top: 30px;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+.wpcf7-submit:hover {
+	color: white !important;
+}
+
+.wpcf7-response-output {
+	display: none;
+}
+
+/* Taille fond */
+
+.container, .content-area.no-sidebar {
+	padding:0;
+	}
+
+.content-area .post-wrap, .contact-form-wrap {
+    padding-right: 0px;
+}
+
+.page-wrap {
+    padding-bottom: 0px;
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 100%;
+    max-width: 100%;
+	} }
+
+@media (min-width: 768px) {
+.container {
+	width:100%;
+	} }
+
+/* Taille menu */
+
+@media (min-width: 992px) {
+.container-fluid {
+    padding-right: 0px;
+	} }
+
+.site-header-inner {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header-item {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+/* Taille img */
+
+.entry-footer {
+    margin-top: 0px;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0px;
+}
+
+/* bouton precommande */
+
+.input-controller {
+	max-width: 192px;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+.input-cont {
+	display: flex;
+	margin-top: 1em;
+}
+
+.fruit-input {
+	width: 70px;
+	height: 73px !important;
+	border-radius: 5px 0 0 5px !important;
+}
+
+.buttons-cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modify-btns {
+	display: flex;
+	flex-direction: column;
+}
+
+.modify-btns button {
+	background-color: #dc9f96;
+	border: none;
+	color: white;
+	padding: 6px 9px;
+	cursor: pointer;
+	width: 40px;
+}
+
+.modify-btns .btn-plus {
+	border-radius: 0 5px 0 0;
+	border-bottom: 1px white solid;
+}
+
+.btn-moins {
+	border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+	background-color: #e0b9b4 !important;
+	border: none;
+	border-radius: 5px;
+	margin-top: 1em;
+	padding: 1.5em;
+	min-width: 140px;
+	color: white;
+	cursor: pointer;
+	height: 73px;
+}
+
+.btn-ok:hover {
+	color: white;
+	background-color: #C02E44 !important;
+}
+
+/* Footer */
+
+.site-info {
+	    padding: 0px 0;
+}
+
+.sidebar-column {
+	display: flex;
+	justify-content: center;
+}
